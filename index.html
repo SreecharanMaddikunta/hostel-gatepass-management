@@ -5,12 +5,13 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gate Pass Management System</title>
-    <link rel="stylesheet" href="./Gate Pass Management System_files/style.css">
-    <link rel="stylesheet" href="./Gate Pass Management System_files/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="all.min.css">
+
 </head>
 <body>
     <!-- Firebase SDK -->
-    <script type="module">
+   <script src="app.js"></script>
         import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js';
         import { getFirestore, collection, addDoc, getDocs, getDoc, doc, setDoc, updateDoc, deleteDoc, query, where, orderBy, limit, onSnapshot } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js';
         import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js';
